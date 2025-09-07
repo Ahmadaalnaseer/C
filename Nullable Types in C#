@@ -1,0 +1,34 @@
+using System;
+using System.Collections.Generic;
+using System.Globalization;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Ccharp
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            bool ? isAhmad = null;
+            Console.WriteLine("Are You Ahmad : ( y / n) : ");
+            string result = Console.ReadLine();
+            if (result == "y")
+            {
+                Console.WriteLine("Ahmad is Here");
+            }
+            else if (result == "n")
+            {
+                Console.WriteLine("Not Ahmad");
+            }
+            else
+            {
+                Console.WriteLine("Nobady Here");
+            }
+            Console.ReadKey(true);
+
+
+        }
+    }
+}
