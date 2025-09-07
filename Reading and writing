@@ -1,0 +1,18 @@
+
+
+using System;
+namespace Ccharp
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Enter Your Name :");
+            String TheName = Console.ReadLine();
+            Console.WriteLine("Welcome Back " + TheName);
+            Console.WriteLine("Your Account is Active Mr.{0}" , TheName);
+            Console.ReadKey(true);
+
+        }
+    }
+}
