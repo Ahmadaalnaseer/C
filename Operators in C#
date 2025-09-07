@@ -1,0 +1,55 @@
+using System;
+using System.Collections.Generic;
+using System.Globalization;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Ccharp
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            String Str = "Ahmad";
+            int num1 = 12;
+            int num2 = 10;
+            num1 = 5;
+            int ResultAddition = num1 + num2; 
+            Console.WriteLine("The Value of x = " + num1);
+            Console.WriteLine("Summation Result Of num1 + num2 = " + ResultAddition);
+            int num3 = 12;
+            int num4 = 2;
+            int ResulSubtrction = num3 - num4;
+            Console.WriteLine("Subtrct Result Of num3 - num4 = " + ResulSubtrction);
+            int num5 = 6;
+            int num6 = 3;
+            int ResulMultiply = num5 * num6;
+            Console.WriteLine("Multiply Result Of num5 * num6 = " + ResulMultiply);
+            int num7 = 10;
+            int num8 = 2;
+            int ResulDivision = num7 / num8;
+            Console.WriteLine("Division Result Of num7 / num8 = " + ResulDivision);
+            int num9 = 13;
+            int num10 = 2;
+            int ResulModulus = num9 % num10;
+            Console.WriteLine("Division Result Of num7 % num8 = " + ResulModulus);
+            bool isTrue = ( num1 == num4);
+            Console.WriteLine("The Result " + isTrue);
+            bool isTrue1= (num4 == num8);
+            Console.WriteLine("The Result " + isTrue1);
+            bool isTrue2 = (num1 == num2) || (num4 == num8);
+            Console.WriteLine("The Result Of Comparition  = " + isTrue2);
+            bool isTrue3 = (num1 == num2) && (num4 == num8);
+            Console.WriteLine("The Result Of Comparition  = " + isTrue3);
+
+            bool isNum =  num3 >= 10 ? true : false;
+            Console.WriteLine("The Result Of Comparition  = " + isNum);
+            bool isNum1 = num3 <= 10 ? true : false;
+            Console.WriteLine("The Result Of Comparition  = " + isNum1);
+            Console.ReadKey(true);
+
+
+        }
+    }
+}
